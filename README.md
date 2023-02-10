@@ -11,7 +11,7 @@ This repository contains a main notebook, some models weight and a some object.
 The use of the object will be explain in the main notebook [GIT_MERGE](https://github.com/gg-Dema/NN_exam_project/blob/main/GIT_MERGE.ipynb).
 The notebook contains also a small report and some personal consideration. 
 
-The solution implemented by my hare original (no reference to the original code base) and fully working over the main problem 
+The solution implemented are original (no reference to the original code base) and fully working over the main problem 
 
 
 
@@ -20,14 +20,14 @@ The solution implemented by my hare original (no reference to the original code 
 
 
 The notebook contains 2 main section: 
-- the definition of some function
+- the definition of some functions
 - the experiment part
 
 More in details, the first part contains the following section: 
 - import the lib [import lib]
 - download the datasets [Dataset and Dataloader]
 - create the Network class [Models definiton & utility]
-- define all the function for the permutation part [Permutation utility]
+- define all the functions for the permutation part [Permutation utility]
 
 
 After this, it's possible train any desired MLP (as show in the experiment part) and merge with another MLP with the same architecture. 
@@ -84,3 +84,5 @@ plot_barrier(eval_dict_non_permuted, eval_dict_permuted, coef_vector, 'title')
 
 
 There is also a part for the multiple model merging, but i was unable to reproduce the performance of the paper over this part 
+
+Ps: the dataloaders and the datasets are inside some dictionary, check the functions body for understand if the input should be a dictionary (run on both train and test set) or should be a single dataloader 
