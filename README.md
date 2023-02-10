@@ -11,7 +11,7 @@ This repository contains a main notebook, some models weight and a some object.
 The use of the object will be explain in the main notebook [GIT_MERGE](https://github.com/gg-Dema/NN_exam_project/blob/main/GIT_MERGE.ipynb).
 The notebook contains also a small report and some personal consideration. 
 
-The solution implemented by my are original (no reference to the original code base) and fully working over the main problem 
+The solution implemented by my hare original (no reference to the original code base) and fully working over the main problem 
 
 
 
